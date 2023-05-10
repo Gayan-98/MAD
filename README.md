@@ -13,7 +13,7 @@ In today's rapidly evolving digital age, mobile applications have become an inte
 The app provides a convenient and cost-effective way for students to access a wide range of academic resources and find tutors. Additionally, it offers an opportunity for tutors to showcase their skills and monetize their expertise by offering online classes. In these challenging economic times, our app offers a practical solution for students seeking academic assistance and tutors looking for additional income.
 
 ## Group Members
-| Group Members           | Student ID  | Role              |
+| Group Members           | Student ID  | Function              |
 |------------------------|------------|------------------|
 | Tharaka P.D.G. (Leader)| IT21181092 | Tutor management |
 | Herath H.M.M. D        | IT21173240 | Student management |
