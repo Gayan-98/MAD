@@ -23,4 +23,4 @@ The app provides a convenient and cost-effective way for students to access a wi
 
 ## Group Information
 - Group Name: EduConnect_GROUP_MAD_WD_B03.02
-- Course: IT2113 - Mobile Application Development (MAD)
+- Module: IT2010 - Mobile Application Development (MAD)
