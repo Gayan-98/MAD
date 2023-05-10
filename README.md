@@ -13,12 +13,13 @@ In today's rapidly evolving digital age, mobile applications have become an inte
 The app provides a convenient and cost-effective way for students to access a wide range of academic resources and find tutors. Additionally, it offers an opportunity for tutors to showcase their skills and monetize their expertise by offering online classes. In these challenging economic times, our app offers a practical solution for students seeking academic assistance and tutors looking for additional income.
 
 ## Group Members
-| Name | Role |
-| --- | --- |
-| Tharaka P.D.G. | Group Leader (Tutor management) |
-| Herath H.M.M. D | Member 2 (Student management) |
-| Chaturanga K.H. D | Member 3 (Paper management) |
-| Karunarathne D.G.V. S | Member 4 (User management) |
+| Group Members           | Student ID  | Role              |
+|------------------------|------------|------------------|
+| Tharaka P.D.G. (Leader)| IT21181092 | Tutor management |
+| Herath H.M.M. D        | IT21173240 | Student management |
+| Chaturanga K.H. D      | IT21168772 | Paper management  |
+| Karunarathne D.G.V. S  | IT21785610 | User management   |
+
 
 ## Group Information
 - Group Name: EduConnect_GROUP_MAD_WD_B03.02
