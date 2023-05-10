@@ -1,4 +1,5 @@
-EduConnect
+EduConnect - Mobile App for Academic Support and Exam Preparation
+
 Introduction
 In today's rapidly evolving digital age, mobile applications have become an integral part of our daily lives. The current economic crisis has had a profound impact on education, leading to a shift towards online learning. In this context, our mobile app provides a comprehensive solution for students to find past papers and connect with qualified tutors for academic assistance. Our app is designed to cater to the needs of students and tutors alike, with four distinct modules.
 
