@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/bn"
+    tools:context=".activity.ALPapers"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="0dp"
+        android:background="#8B8A5CE8"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <ImageButton
+            android:id="@+id/backbtn2"
+            android:layout_width="50dp"
+            android:background="#518A5CE8"
+            android:layout_height="50dp"
+            android:paddingRight="20dp"
+            android:contentDescription="back_button_description"
+            app:srcCompat="?attr/actionModeCloseDrawable"
+            tools:ignore="ExtraText"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="16dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginLeft="30dp"
+            android:text="              A/L"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+
+            />
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="386dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_margin="12dp"
+        android:elevation="6dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="60dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Subject Category"
+            android:textSize="35dp"
+            android:background="@color/alb7"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#AA090808"
+            /></androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="386dp"
+
+        android:layout_height="650dp"
+        android:layout_marginTop="20dp"
+        android:layout_margin="12dp"
+        android:elevation="6dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="60dp">
+
+
+        <LinearLayout
+            android:layout_width="377dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/bac"
+
+            android:orientation="vertical"
+            android:padding="40dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/biobtn1"
+                    android:layout_width="380dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#B75E35B1"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:text="bio"
+                    android:textSize="35dp"
+                    android:textColor="@color/white"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/maxbtn1"
+                    android:layout_width="380dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#B75E35B1"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:text="matchs"
+                    android:textColor="@color/white"
+
+                    android:textSize="35dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/art1"
+                    android:layout_width="380dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#B75E35B1"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:text="art"
+                    android:textSize="35dp"
+                    tools:ignore="DuplicateIds"
+                    android:textColor="@color/white"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/cmmos1"
+                    android:layout_width="380dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#B75E35B1"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:text="commous"
+                    android:textSize="35dp"
+                    tools:ignore="DuplicateIds"
+                    android:textColor="@color/white"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/tec1"
+                    android:layout_width="380dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#B75E35B1"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:text="teachnology"
+                    android:textSize="35dp"
+                    tools:ignore="DuplicateIds"
+                    android:textColor="@color/white"/>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

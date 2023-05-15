@@ -1,348 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.MainActivity">
+    android:orientation="vertical"
+    android:background="#88BB86FC"
+    android:gravity="center"
+    tools:context=".activity.MainActivity"
+    android:fitsSystemWindows="true"
+    >
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/background">
-
-
-
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:background="#00008577"
-            android:minHeight="?attr/actionBarSize"
-            android:theme="?attr/actionBarTheme"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        app:cardCornerRadius="14dp"
+        android:background="@color/alb2"
+        android:layout_marginTop="0dp"
+        >
 
         <TextView
-            android:id="@+id/textView"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="24dp"
-            android:text="Welcome"
-            android:textSize="45sp"
-            android:textColor="@color/white"
-            app:layout_constraintEnd_toStartOf="@+id/imageView"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
-
-
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:text="Share your knowledge.."
-            android:textSize="18sp"
-            app:layout_constraintEnd_toStartOf="@+id/imageView"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="0dp"
-            android:layout_height="160dp"
-            android:layout_marginEnd="16dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/textView"
-            app:layout_constraintTop_toBottomOf="@+id/toolbar"
-            app:srcCompat="@drawable/tutor1" />
-        <LinearLayout
-            android:id="@+id/linearLayout"
-            android:layout_margin="10dp"
-            android:layout_width="0dp"
-            android:layout_height="175dp"
-            android:orientation="horizontal"
-            android:padding="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView">
-            <androidx.cardview.widget.CardView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_margin="10dp"
-                app:cardCornerRadius="19dp"
-                app:cardElevation="90dp"
-                android:layout_weight="1">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-
-                    <ImageView
-                        android:id="@+id/bus"
-                        android:layout_width="100dp"
-                        android:layout_height="80dp"
-                        android:layout_centerHorizontal="true"
-                        android:layout_marginTop="15dp"
-                        app:srcCompat="@drawable/post" />
-
-                    <Button
-                        android:id="@+id/btnInsertData"
-                        android:layout_width="100dp"
-                        android:layout_height="40dp"
-                        android:layout_alignParentEnd="true"
-                        android:layout_marginTop="100dp"
-                        android:layout_marginEnd="34dp"
-                        android:background="@drawable/edittext_rounded_bg"
-                        android:text="Publish"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/bus1"
-                        tools:ignore="NotSibling" />
-
-
-                </RelativeLayout>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_margin="10dp"
-                app:cardCornerRadius="19dp"
-                app:cardElevation="90dp"
-                android:layout_weight="1">
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-
-                    <Button
-                        android:id="@+id/btnFetchData"
-                        android:layout_width="100dp"
-                        android:layout_height="40dp"
-                        android:layout_alignParentEnd="true"
-                        android:layout_marginTop="100dp"
-                        android:layout_marginEnd="34dp"
-                        android:background="@drawable/edittext_rounded_bg"
-                        android:text="Manage"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/bus1"
-                        tools:ignore="NotSibling" />
-
-
-
-
-
-
-
-
-                    <ImageView
-                        android:id="@+id/imageView3"
-                        android:layout_width="100dp"
-                        android:layout_height="75dp"
-                        android:layout_centerHorizontal="true"
-                        android:layout_marginTop="15dp"
-                        app:srcCompat="@drawable/manage_class" />
-                </RelativeLayout>
-            </androidx.cardview.widget.CardView>
-
-        </LinearLayout>
-        <LinearLayout
-            android:id="@+id/linearLayout2"
-            android:layout_margin="10dp"
-            android:layout_width="0dp"
-            android:layout_height="175dp"
-            android:orientation="horizontal"
-            android:padding="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
-            <androidx.cardview.widget.CardView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_margin="10dp"
-                app:cardCornerRadius="19dp"
-                app:cardElevation="90dp"
-                android:layout_weight="1">
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-                    <TextView
-                        android:id="@+id/textView6"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/bus1"
-                        android:layout_centerHorizontal="true"
-                        android:layout_marginTop="10dp"
-                        android:text="Papers"
-                        android:textSize="22sp"></TextView>
-                    <!--app:fontFamily="@font/aclonica"--> />
-
-                    <ImageView
-                        android:id="@+id/bus1"
-                        android:layout_width="100dp"
-                        android:layout_height="80dp"
-                        android:layout_alignParentStart="true"
-                        android:layout_marginStart="34dp"
-                        android:layout_marginTop="15dp"
-                        app:srcCompat="@drawable/papers" />
-                </RelativeLayout>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_margin="10dp"
-                app:cardCornerRadius="19dp"
-                app:cardElevation="90dp"
-                android:layout_weight="1">
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-                    <TextView
-                        android:id="@+id/textView7"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/train"
-                        android:layout_centerHorizontal="true"
-                        android:layout_marginTop="10dp"
-                        android:text="Marking"
-                        android:textSize="22sp"></TextView>
-                    <!--app:fontFamily="@font/aclonica"--> />
-                    <ImageView
-                        android:id="@+id/train"
-                        android:layout_width="100dp"
-                        android:layout_height="75dp"
-                        android:layout_centerHorizontal="true"
-                        android:layout_marginTop="15dp"
-                        app:srcCompat="@drawable/unswer" />
-                </RelativeLayout>
-            </androidx.cardview.widget.CardView>
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:id="@+id/linearLayout3"
-            android:layout_width="0dp"
-            android:layout_height="175dp"
-            android:layout_margin="10dp"
-            android:layout_marginTop="8dp"
-            android:orientation="horizontal"
-            android:padding="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.526"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
-
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_margin="10dp"
-                android:layout_weight="1"
-                app:cardCornerRadius="19dp"
-                app:cardElevation="90dp">
-
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <TextView
-                        android:id="@+id/textView9"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/airplane"
-                        android:layout_centerHorizontal="true"
-                        android:layout_marginTop="10dp"
-                        android:text="Tutors"
-                        android:textSize="22sp"></TextView>
-                    <!-- app:fontFamily="@font/aclonica"--> />
-
-                    <ImageView
-                        android:id="@+id/airplane"
-                        android:layout_width="100dp"
-                        android:layout_height="80dp"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentEnd="true"
-                        android:layout_marginStart="45dp"
-                        android:layout_marginTop="15dp"
-                        android:layout_marginEnd="46dp"
-                        app:srcCompat="@drawable/tutor4" />
-                </RelativeLayout>
-            </androidx.cardview.widget.CardView>
-
-
-
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_margin="10dp"
-                android:layout_weight="1"
-                app:cardCornerRadius="19dp"
-                app:cardElevation="90dp">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-
-                    <TextView
-                        android:id="@+id/textView10"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/student"
-                        android:layout_centerHorizontal="true"
-                        android:layout_marginTop="10dp"
-                        android:text="Students"
-                        android:textSize="22sp"></TextView>
-
-
-                    <ImageView
-                        android:id="@+id/student"
-                        android:layout_width="75dp"
-                        android:layout_height="75dp"
-                        android:layout_alignParentStart="true"
-                        android:layout_marginStart="45dp"
-                        android:layout_marginTop="15dp"
-                        app:srcCompat="@drawable/student"/>
-
-                </RelativeLayout>
-
-            </androidx.cardview.widget.CardView>
-
-
-        </LinearLayout>
-
-        <RelativeLayout
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            xmlns:tools="http://schemas.android.com/tools"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:context=".MainActivity"/>
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#37EB76A1"
+            android:padding="16dp"
+            android:text="Choose Your Category"
+            android:textColor="#941128B1"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
 
-        <RelativeLayout
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="360dp"
+        android:layout_height="500dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/white"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="6dp">
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/relativelayout"
-            android:layout_marginBottom="65dp"
-            android:padding="5dp">
+            android:layout_height="520dp"
+            android:background="@drawable/ww"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="30dp">
 
-        </RelativeLayout>
+            <Button
+                android:id="@+id/bttonOL"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="0dp"
+                android:background="#B3B388FF"
+                android:orientation="vertical"
+                android:padding="6dp"
+                android:paddingTop="10dp"
+                android:text="Ordinary Level"
+                android:textColor="#E0F5F4F1"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:cornerRadius="30dp" />
+
+            <Button
+                android:id="@+id/btnAL"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:background="#BDB388FF"
+                android:orientation="vertical"
+                android:padding="6dp"
+                android:paddingTop="10dp"
+                android:text="Advanced Level"
+                android:textColor="#E0F5F4F1"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:cornerRadius="30dp" />
+
+            <Button
+                android:id="@+id/btnInsertData"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:background="#BDB388FF"
+                android:orientation="vertical"
+                android:padding="6dp"
+                android:paddingTop="10dp"
+                android:text="Insertpaper"
+                android:textColor="#E0F5F4F1"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:cornerRadius="30dp" />
+
+            <Button
+                android:id="@+id/btnFetchData"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:background="#BDB388FF"
+                android:orientation="vertical"
+                android:padding="6dp"
+                android:paddingTop="10dp"
+                android:text="fech data"
+                android:textColor="#E0F5F4F1"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:cornerRadius="30dp"
+                tools:ignore="DuplicateIds" />
 
 
+        </LinearLayout>
 
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
-</ScrollView>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

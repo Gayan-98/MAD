@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.OL_papers"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#5C00B1C1"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <ImageButton
+            android:id="@+id/backbtn"
+
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:background="#0400B1C1"
+            android:contentDescription="back_button_description"
+            android:paddingLeft="0dp"
+            android:paddingRight="20dp"
+            app:srcCompat="?attr/actionModeCloseDrawable"
+            tools:ignore="ExtraText"
+            tools:layout_editor_absoluteX="18dp"
+            tools:layout_editor_absoluteY="18dp" />
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="O/L"
+            android:layout_marginLeft="100dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="772dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/kkll"
+        android:orientation="vertical"
+        android:padding="50dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+
+            >
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/biobtn"
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/box_style"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="SCIENCE"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+
+            >
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/maxbtn"
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/box_style"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="MATCHS"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+
+            >
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/artbtn"
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/box_style"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="SINHALA"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+
+            >
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/engbtn"
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/box_style"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="ENGLISH"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+
+            >
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/higbtn"
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/box_style"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="HISTORY"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+
+                />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
