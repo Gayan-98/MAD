@@ -31,25 +31,25 @@ The app provides a convenient and cost-effective way for students to access a wi
 - Module: IT2010 - Mobile Application Development (MAD)
 
 
-  ## Screenshots
+ ## Screenshots
 
-![Screenshot 1](images/dashboard.png)
-*Caption for Screenshot 1*
+<img src="images/dashboard.png" alt="Dashboard" width="300"/>
+*Caption for Dashboard*
 
-![Screenshot 2](images/insert.png)
-*Caption for Screenshot 2*
+<img src="images/insert.png" alt="Insert" width="300"/>
+*Caption for Insert*
 
-![Screenshot 3](images/insertValidation.png)
-*Caption for Screenshot 3*
+<img src="images/insertValidation.png" alt="Insert Validation" width="300"/>
+*Caption for Insert Validation*
 
-![Screenshot 3](images/search_class.png)
-*Caption for Screenshot 3*
+<img src="images/search_class.png" alt="Search Class" width="300"/>
+*Caption for Search Class*
 
-![Screenshot 3](images/update.png)
-*Caption for Screenshot 3*
+<img src="images/update.png" alt="Update" width="300"/>
+*Caption for Update*
 
-![Screenshot 3](images/viewClasses.png)
-*Caption for Screenshot 3*
+<img src="images/viewClasses.png" alt="View Classes" width="300"/>
+*Caption for View Classes*
 
-![Screenshot 3](images/viewDetailsClass.png)
-*Caption for Screenshot 3*
+<img src="images/viewDetailsClass.png" alt="View Details Class" width="300"/>
+*Caption for View Details Class*
