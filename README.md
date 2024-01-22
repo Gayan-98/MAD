@@ -29,3 +29,27 @@ The app provides a convenient and cost-effective way for students to access a wi
 ## Group Information
 - Group Name: EduConnect_GROUP_MAD_WD_B03.02
 - Module: IT2010 - Mobile Application Development (MAD)
+
+
+  ## Screenshots
+
+![Screenshot 1](images/dashboard.png)
+*Caption for Screenshot 1*
+
+![Screenshot 2](images/insert.png)
+*Caption for Screenshot 2*
+
+![Screenshot 3](images/insertValidation.png)
+*Caption for Screenshot 3*
+
+![Screenshot 3](images/search_class.png)
+*Caption for Screenshot 3*
+
+![Screenshot 3](images/update.png)
+*Caption for Screenshot 3*
+
+![Screenshot 3](images/viewClasses.png)
+*Caption for Screenshot 3*
+
+![Screenshot 3](images/viewDetailsClass.png)
+*Caption for Screenshot 3*
