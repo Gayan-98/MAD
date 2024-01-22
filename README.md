@@ -33,7 +33,7 @@ The app provides a convenient and cost-effective way for students to access a wi
 
 ## Screenshots
 
-<img src="images/dashboard.png" alt="Dashboard" width="150"/> <img src="images/viewClasses.png" alt="View Classes" width="150"/> <img src="images/search_class.png" alt="Search Class" width="150"/>  <img src="images/page1.png" alt="Search Class" width="150"/>  <img src="images/page2.png" alt="Search Class" width="150"/> 
+<img src="images/dashboard.png" alt="Dashboard" width="150"/>   <img src="images/viewClasses.png" alt="View Classes" width="150"/>   <img src="images/search_class.png" alt="Search Class" width="150"/>   <img src="images/page1.png" alt="Search Class" width="150"/>   <img src="images/page2.png" alt="Search Class" width="150"/> 
 
 
 
