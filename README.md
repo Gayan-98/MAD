@@ -31,19 +31,11 @@ The app provides a convenient and cost-effective way for students to access a wi
 - Module: IT2010 - Mobile Application Development (MAD)
 
 
-
 ## Screenshots
 
-<img src="images/dashboard.png" alt="Dashboard" width="150"/>
+<img src="images/dashboard.png" alt="Dashboard" width="150"/> <img src="images/insert.png" alt="Insert" width="150"/> <img src="images/insertValidation.png" alt="Insert Validation" width="150"/> <br/>
 
-<img src="images/insert.png" alt="Insert" width="150"/>
-
-<img src="images/insertValidation.png" alt="Insert Validation" width="150"/>
-
-<img src="images/search_class.png" alt="Search Class" width="150"/>
-
-<img src="images/update.png" alt="Update" width="150"/>
-
-<img src="images/viewClasses.png" alt="View Classes" width="150"/>
+<img src="images/search_class.png" alt="Search Class" width="150"/> <img src="images/update.png" alt="Update" width="150"/> <img src="images/viewClasses.png" alt="View Classes" width="150"/> <br/>
 
 <img src="images/viewDetailsClass.png" alt="View Details Class" width="150"/>
+
